@@ -1,0 +1,7 @@
+.tech {
+  background-image: url(../../assets/technology/background-technology-desktop.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

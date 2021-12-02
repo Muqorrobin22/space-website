@@ -1,0 +1,17 @@
+.destination {
+  background-image: url(../../assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (max-width: 930px) {
+  .destination {
+    background-image: url(../../assets/destination/background-destination-tablet.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}

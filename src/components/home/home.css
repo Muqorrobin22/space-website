@@ -1,0 +1,27 @@
+.body {
+  background-image: url(../../assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (max-width: 818px) {
+  .body {
+    background-image: url(../../assets/home/background-home-tablet.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 538px) {
+  .body {
+    background-image: url(../../assets/home/background-home-mobile.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
